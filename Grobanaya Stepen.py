@@ -3,8 +3,8 @@ def stepen(a, b):
         return 1
     return stepen(a, b-1)*a
 
-chislo=input()
-step=input() 
+vvod=input()
+chislo, step=vvod.split() 
 chislo=int(chislo)
 step=int(step)
 final = stepen(chislo, step)
